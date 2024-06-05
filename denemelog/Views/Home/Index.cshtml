@@ -1,0 +1,57 @@
+﻿@{
+ViewData["Title"] = "Home Page";
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="hero">
+    <div class="hero-container" data-aos="fade-in">
+        <h1>Welcome to Local in Istanbul</h1>
+        <h2>Discover the Local Places Recommendations in Istanbul</h2>
+
+        <a href="@Url.Action("Index", "Coffees")" class="btn-get-started">Coffee Places</a>
+        <a href="@Url.Action("Index", "Restaurants")" class="btn-get-started">Restaurants</a>
+
+    </div>
+</section>
+
+<section id="team" class="padd-section text-center">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+            <h2>Discover the Istanbul as Local</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                <div class="team-block bottom">
+                    <img src="~/assets/img/bridge-strait-mosque-istanbul-wallpaper-preview.jpg" class="img-responsive" alt="img">
+                    <div class="team-content">
+                        <h4>Discover the places</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                <div class="team-block bottom">
+                    <img src="~/assets/img/istockphoto-1333161816-612x612.jpg" class="img-responsive" alt="img">
+                    <div class="team-content">
+                        <h4>Get the recommendations</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="team-block bottom">
+                    <img src="~/assets/img/Kadikoy.jpg" class="img-responsive" alt="img">
+                    <div class="team-content">
+                        <h4>Go to the place and feel like a Local</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                <div class="team-block bottom">
+                    <img src="~/assets/img/istanbul-5202424_640.jpg" class="img-responsive" alt="img">
+                    <div class="team-content">
+                        <h4>Register and write us about your experience</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
